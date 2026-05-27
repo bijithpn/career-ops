@@ -426,6 +426,3 @@ func TestSearchTypingDoesNotLoadReports(t *testing.T) {
 		}
 	}
 }
-
-	}
-}
