@@ -92,7 +92,7 @@ if (args.length === 0 || args[0] === '--help' || args[0] === '-h') {
     3. Run: npm install   (installs @google/generative-ai + dotenv)
 
   EXAMPLES
-    node gemini-eval.mjs "We are looking for a Senior AI Engineer..."
+    node gemini-eval.mjs "We are looking for a Senior Flutter Developer..."
     node gemini-eval.mjs --file ./jds/openai-swe.txt
 `);
   process.exit(0);

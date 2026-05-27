@@ -2,10 +2,10 @@
 
 <!-- ============================================================
      THIS FILE IS YOURS. It will NEVER be auto-updated.
-     
+
      Customize everything here: your archetypes, narrative,
      proof points, negotiation scripts, location policy.
-     
+
      The system reads _shared.md (updatable) first, then this
      file (your overrides). Your customizations always win.
      ============================================================ -->
@@ -13,35 +13,35 @@
 ## Your Target Roles
 
 <!-- Replace these with YOUR target roles. Examples:
-     - Senior Backend Engineer / Staff Platform Engineer
-     - AI Product Manager / Technical PM
-     - Data Engineer / ML Engineer
-     - DevOps / SRE / Platform
+     - Senior Flutter Developer / Mobile App Architect
+     - Cross-Platform Engineer
+     - Full Stack Mobile Developer
      Whatever you're optimizing for. -->
 
-| Archetype | Thematic axes | What they buy |
-|-----------|---------------|---------------|
-| **AI Platform / LLMOps Engineer** | Evaluation, observability, reliability, pipelines | Someone who puts AI in production with metrics |
-| **Agentic Workflows / Automation** | HITL, tooling, orchestration, multi-agent | Someone who builds reliable agent systems |
-| **Technical AI Product Manager** | GenAI/Agents, PRDs, discovery, delivery | Someone who translates business to AI product |
-| **AI Solutions Architect** | Hyperautomation, enterprise, integrations | Someone who designs end-to-end AI architectures |
-| **AI Forward Deployed Engineer** | Client-facing, fast delivery, prototyping | Someone who delivers AI solutions to clients fast |
-| **AI Transformation Lead** | Change management, adoption, org enablement | Someone who leads AI transformation in an org |
+| Archetype | Ejes temáticos | Qué compran |
+|-----------|----------------|-------------|
+| **Senior Flutter Developer** | Flutter, Dart, state management, architecture | Alguien que construya y mantenga apps escalables |
+| **Mobile App Architect** | Design patterns, Clean Architecture, system design | Alguien que diseñe sistemas móviles a largo plazo |
+| **Cross-Platform Engineer** | Android, iOS, Flutter Web, consistency | Alguien que entregue experiencias multi-plataforma |
+| **Flutter + Firebase Engineer** | Real-time, serverless, cloud services | Alguien que construya apps cloud-connected |
+| **Frontend Mobile Engineer** | UI/UX, animations, pixel-perfect | Alguien que traduzca diseños en interfaces pulidas |
+| **Full Stack Mobile Developer** | APIs, backend integration, REST/GraphQL | Alguien que maneje el flujo end-to-end de la app |
 
 ## Your Adaptive Framing
 
 <!-- Map YOUR projects to each archetype. Example:
-     | Platform / LLMOps | My monitoring dashboard project | article-digest.md |
-     | Agentic | My chatbot with HITL escalation | cv.md section 3 | -->
+     | Senior Flutter | My performance dashboard | article-digest.md |
+     | Architect | My Clean Architecture repo | cv.md section 3 | -->
 
 | If the role is... | Emphasize about you... | Proof point sources |
 |-------------------|------------------------|---------------------|
-| Platform / LLMOps | Production systems builder, observability, evals | article-digest.md + cv.md |
-| Agentic / Automation | Multi-agent orchestration, HITL, reliability | article-digest.md + cv.md |
-| Technical AI PM | Product discovery, PRDs, metrics | cv.md + article-digest.md |
-| Solutions Architect | System design, integrations, enterprise-ready | article-digest.md + cv.md |
-| Forward Deployed Engineer | Fast delivery, client-facing, prototype to prod | cv.md + article-digest.md |
-| AI Transformation Lead | Change management, team enablement, adoption | cv.md + article-digest.md |
+| Senior Flutter | Production systems builder, performance, scalability | article-digest.md + cv.md |
+| Mobile Architect | System design, patterns, maintainability | article-digest.md + cv.md |
+| Cross-Platform | Versatility, platform-native, consistency | cv.md + article-digest.md |
+| Full Stack Mobile | API design, data flow, integrations | article-digest.md + cv.md |
+| Frontend Engineer | Polished UI, animations, UX implementation | cv.md + article-digest.md |
+| Firebase / Cloud | Real-time features, serverless, sync | cv.md + article-digest.md |
+
 
 ## Your Exit Narrative
 
@@ -56,14 +56,14 @@ Use the candidate's exit story from `config/profile.yml` to frame ALL content:
 
 <!-- What's your "signature move"? What do you do that others can't? -->
 
-Frame profile as **"Technical builder with real-world proof"** that adapts framing to the role.
+Frame profile as **"Mobile Engineering Expert"** that adapts framing to the role.
 
 ## Your Portfolio / Demo
 
 <!-- If you have a live demo, dashboard, or public project:
      url: https://yoursite.dev/demo
      password: demo-2026
-     when_to_share: "LLMOps, AI Platform roles" -->
+     when_to_share: "Flutter, Mobile Architect roles" -->
 
 If you have a live demo/dashboard (check profile.yml), offer access in applications for relevant roles.
 

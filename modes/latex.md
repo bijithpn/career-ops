@@ -90,7 +90,8 @@ Each project becomes:
 
 ```latex
     \textbf{Languages}{: C, C++, Java, ...} \\
-    \textbf{Frameworks \& ML}{: PyTorch, LangChain, ...} \\
+    \textbf{Frameworks \& Tools}{: Flutter, Dart, BLoC, GetX, ...} \\
+
     \textbf{Tools \& Cloud}{: Docker, Kubernetes, ...}
 ```
 
@@ -134,7 +135,7 @@ Same ethical rules as `modes/pdf.md`:
 - NEVER add skills the candidate doesn't have
 - Only reformulate existing experience using JD vocabulary
 - Examples:
-  - JD says "RAG pipelines" → reword "LLM workflows with retrieval" to "RAG pipeline design"
+  - JD says "Clean Architecture" â†’ reword "layered patterns" to "Clean Architecture design"
   - JD says "MLOps" → reword "observability, evals" to "MLOps and observability"
 
 ## Overleaf Compatibility

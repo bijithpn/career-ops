@@ -61,7 +61,7 @@ func TestWithReloadedDataPreservesStateAndSelection(t *testing.T) {
 		initialApps[1],
 		{
 			Company:    "Gamma",
-			Role:       "AI Engineer",
+			Role:       "Senior Flutter Developer",
 			Status:     "Interview",
 			Score:      4.8,
 			ReportPath: "reports/003-gamma.md",
@@ -116,10 +116,10 @@ func TestRenderAppLineIncludesDateColumn(t *testing.T) {
 
 func TestSearchFiltersByCompanyRoleAndNotes(t *testing.T) {
 	apps := []model.CareerApplication{
-		{Company: "Stripe", Role: "Backend Engineer", Status: "Evaluated", Score: 4.6, Notes: "payments infra"},
-		{Company: "Anthropic", Role: "AI Safety Engineer", Status: "Applied", Score: 4.8, Notes: "policy work"},
-		{Company: "Acme Corp", Role: "Senior PM, Voice AI", Status: "Evaluated", Score: 4.2, Notes: "Series B in Madrid"},
-		{Company: "Globex", Role: "Platform Engineer", Status: "Applied", Score: 3.9, Notes: "remote-first"},
+		{Company: "BMW", Role: "Senior Flutter Developer", Status: "Evaluated", Score: 4.6, Notes: "automotive app"},
+		{Company: "Google", Role: "Flutter Engineer", Status: "Applied", Score: 4.8, Notes: "framework team"},
+		{Company: "Acme Corp", Role: "Mobile Architect", Status: "Evaluated", Score: 4.2, Notes: "Series B in Bangalore"},
+		{Company: "Globex", Role: "Android Engineer", Status: "Applied", Score: 3.9, Notes: "remote-first"},
 	}
 
 	pm := NewPipelineModel(theme.NewTheme("catppuccin-mocha"), apps, model.PipelineMetrics{Total: len(apps)}, "..", 120, 40)
@@ -320,7 +320,7 @@ func TestRejectedAndDiscardedTabsFilterCorrectly(t *testing.T) {
 		},
 		{
 			Company:    "Gamma",
-			Role:       "AI Engineer",
+			Role:       "Senior Flutter Developer",
 			Status:     "Applied",
 			Score:      4.6,
 			ReportPath: "reports/003-gamma.md",
@@ -424,5 +424,8 @@ func TestSearchTypingDoesNotLoadReports(t *testing.T) {
 				t.Fatal("Ctrl+U during search input should not emit PipelineLoadReportMsg")
 			}
 		}
+	}
+}
+
 	}
 }

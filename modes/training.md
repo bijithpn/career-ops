@@ -19,9 +19,9 @@ Para cada curso/cert que el candidato pregunte, evaluar 6 dimensiones:
 
 ## Prioridad
 
-Formación que mejore credibilidad en "production-grade AI":
-1. Evals y testing de LLMs
-2. Observability y monitoring
-3. Cost/reliability trade-offs
-4. AI governance y safety
-5. Enterprise AI architecture
+FormaciÃ³n que mejore credibilidad en "high-performance mobile engineering":
+1. Flutter architecture (Clean, Layered)
+2. State management systems (BLoC, Riverpod)
+3. Performance optimization (Profiling, rendering)
+4. Mobile security & CI/CD
+5. Native integration (MethodChannels, JNI/Swift)

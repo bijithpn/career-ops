@@ -75,12 +75,12 @@ Clasifica la oferta en uno de los 6 arquetipos. Si es híbrido, indica los 2 má
 
 | Arquetipo | Ejes temáticos | Qué compran |
 |-----------|----------------|-------------|
-| **AI Platform / LLMOps Engineer** | Evaluation, observability, reliability, pipelines | Alguien que ponga AI en producción con métricas |
-| **Agentic Workflows / Automation** | HITL, tooling, orchestration, multi-agent | Alguien que construya sistemas de agentes fiables |
-| **Technical AI Product Manager** | GenAI/Agents, PRDs, discovery, delivery | Alguien que traduzca negocio → producto AI |
-| **AI Solutions Architect** | Hyperautomation, enterprise, integrations | Alguien que diseñe arquitecturas AI end-to-end |
-| **AI Forward Deployed Engineer** | Client-facing, fast delivery, prototyping | Alguien que entregue soluciones AI a clientes rápido |
-| **AI Transformation Lead** | Change management, adoption, org enablement | Alguien que lidere el cambio AI en una organización |
+| **Senior Flutter Developer** | Flutter, Dart, state management, architecture | Alguien que construya y mantenga apps escalables |
+| **Mobile App Architect** | Design patterns, Clean Architecture, system design | Alguien que diseñe sistemas móviles a largo plazo |
+| **Cross-Platform Engineer** | Android, iOS, Flutter Web, consistency | Alguien que entregue experiencias multi-plataforma |
+| **Flutter + Firebase Engineer** | Real-time, serverless, cloud services | Alguien que construya apps cloud-connected |
+| **Frontend Mobile Engineer** | UI/UX, animations, pixel-perfect | Alguien que traduzca diseños en interfaces pulidas |
+| **Full Stack Mobile Developer** | APIs, backend integration, REST/GraphQL | Alguien que maneje el flujo end-to-end de la app |
 
 **Framing adaptativo:**
 
@@ -88,20 +88,20 @@ Clasifica la oferta en uno de los 6 arquetipos. Si es híbrido, indica los 2 má
 
 | Si el rol es... | Emphasize about the candidate... | Fuentes de proof points |
 |-----------------|--------------------------|--------------------------|
-| Platform / LLMOps | Builder de sistemas en producción, observability, evals, closed-loop | article-digest.md + cv.md |
-| Agentic / Automation | Orquestación multi-agente, HITL, reliability, cost | article-digest.md + cv.md |
-| Technical AI PM | Product discovery, PRDs, métricas, stakeholder mgmt | cv.md + article-digest.md |
-| Solutions Architect | Diseño de sistemas, integrations, enterprise-ready | article-digest.md + cv.md |
-| Forward Deployed Engineer | Fast delivery, client-facing, prototype → prod | cv.md + article-digest.md |
-| AI Transformation Lead | Change management, team enablement, adoption | cv.md + article-digest.md |
+| Senior Flutter Developer | Producción, arquitectura escalable, performance | article-digest.md + cv.md |
+| Mobile Architect | Clean Architecture, patrones, mantenibilidad | article-digest.md + cv.md |
+| Cross-Platform | Android, iOS, Web, consistencia de producto | cv.md + article-digest.md |
+| Flutter + Firebase | Real-time, notificaciones, sincronización | article-digest.md + cv.md |
+| Frontend Engineer | UI responsive, animaciones, UX implementation | cv.md + article-digest.md |
+| Full Stack Mobile | Integración de APIs, WebSockets, flujos de datos | cv.md + article-digest.md |
 
-**Ventaja transversal**: Enmarcar perfil como **"Technical builder"** que adapta su framing al rol:
-- Para PM: "builder que reduce incertidumbre con prototipos y luego productioniza con disciplina"
-- Para FDE: "builder que entrega fast con observability y métricas desde día 1"
-- Para SA: "builder que diseña sistemas end-to-end con experiencia real en integrations"
-- Para LLMOps: "builder que pone AI en producción con closed-loop quality systems — leer métricas de article-digest.md"
+**Ventaja transversal**: Enmarcar perfil como **"Mobile Engineering Expert"** que adapta su framing al rol:
+- Para Senior Flutter: "engineer que entrega apps de alta performance con arquitectura sólida y escalable"
+- Para Architect: "líder técnico que diseña sistemas móviles mantenibles y robustos desde la base"
+- Para Cross-Platform: "desarrollador versátil que garantiza consistencia y calidad en Android, iOS y Web"
+- Para Full Stack Mobile: "ingeniero integral que domina tanto el frontend móvil como la integración eficiente de APIs"
 
-Convertir "builder" en señal profesional, no en "hobby maker". El framing cambia, la verdad es la misma.
+Convertir "Flutter expert" en señal profesional de alto nivel. El framing cambia, la verdad es la misma.
 
 #### Bloque A — Resumen del Rol
 
@@ -112,12 +112,12 @@ Tabla con: Arquetipo detectado, Domain, Function, Seniority, Remote, Team size, 
 Read `cv.md`. Tabla con cada requisito del JD mapeado a líneas exactas del CV o keys de i18n.ts.
 
 **Adaptado al arquetipo:**
-- FDE → priorizar delivery rápida y client-facing
-- SA → priorizar diseño de sistemas e integrations
-- PM → priorizar product discovery y métricas
-- LLMOps → priorizar evals, observability, pipelines
-- Agentic → priorizar multi-agent, HITL, orchestration
-- Transformation → priorizar change management, adoption, scaling
+- Senior Flutter → priorizar performance, Dart, y entrega a producción
+- Architect → priorizar patrones de diseño, Clean Architecture, y escalabilidad
+- Cross-Platform → priorizar consistencia multi-plataforma y adaptabilidad
+- Full Stack Mobile → priorizar integraciones de backend, REST/GraphQL, y WebSockets
+- Frontend → priorizar UI/UX, animaciones pulidas, y diseño pixel-perfect
+- Firebase/Cloud → priorizar notificaciones, sync en tiempo real, y servicios serverless
 
 Sección de **gaps** con estrategia de mitigación para cada uno:
 1. ¿Es hard blocker o nice-to-have?
@@ -324,7 +324,7 @@ node generate-pdf.mjs \
 **Estrategia keyword injection (ético):**
 - Reformular experiencia real con vocabulario exacto del JD
 - NUNCA añadir skills the candidate doesn't have
-- Ejemplo: JD dice "RAG pipelines" y CV dice "LLM workflows with retrieval" → "RAG pipeline design and LLM orchestration workflows"
+- Ejemplo: JD dice "Clean Architecture" y CV dice "SOLID principles and layered design" → "Clean Architecture implementation with SOLID principles"
 
 **Template placeholders (en cv-template.html):**
 
@@ -373,7 +373,7 @@ Formato TSV (una sola línea, sin header, 9 columnas tab-separated):
 | 1 | num | int | `647` | Secuencial, max existente + 1 |
 | 2 | date | YYYY-MM-DD | `2026-03-14` | Fecha de evaluación |
 | 3 | company | string | `Datadog` | Nombre corto de empresa |
-| 4 | role | string | `Staff AI Engineer` | Título del rol |
+| 4 | role | string | `Senior Flutter Developer` | TÃtulo del rol |
 | 5 | status | canonical | `Evaluada` | DEBE ser canónico (ver states.yml) |
 | 6 | score | X.XX/5 | `4.55/5` | O `N/A` si no evaluable |
 | 7 | pdf | emoji | `✅` o `❌` | Si se generó PDF |

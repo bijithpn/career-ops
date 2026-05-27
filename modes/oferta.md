@@ -13,7 +13,7 @@ Classify the job into one of the 6 archetypes (see `_shared.md`). If it is a hyb
 
 Table with:
 - Archetype detected
-- Domain (platform/agentic/LLMOps/ML/enterprise)
+- Domain (fintech/logistics/healthcare/ecommerce/SaaS)
 - Function (build/consult/manage/deploy)
 - Seniority
 - Remote (full/hybrid/onsite)
@@ -28,8 +28,8 @@ Read `cv.md`. Create a table with each JD requirement mapped to exact lines in t
 - If FDE → prioritize delivery speed and client-facing proof points
 - If SA → prioritize system design and integrations
 - If PM → prioritize product discovery and metrics
-- If LLMOps → prioritize evals, observability, pipelines
-- If Agentic → prioritize multi-agent, HITL, orchestration
+- If Senior Flutter â†’ prioritize production delivery and performance
+- If Architect â†’ prioritize system design and Clean Architecture
 - If Transformation → prioritize change management, adoption, scaling
 
 **Gaps** section with mitigation strategy for each. For each gap:
@@ -74,12 +74,12 @@ The **Reflection** column captures what was learned or what would be done differ
 **Story Bank:** If `interview-prep/story-bank.md` exists, check if any of these stories are already there. If not, append new ones. Over time this builds a reusable bank of 5-10 master stories that can be adapted to any interview question.
 
 **Selected and framed according to the archetype:**
-- FDE → emphasize delivery speed and client-facing
-- SA → emphasize architectural decisions
-- PM → emphasize discovery and trade-offs
-- LLMOps → emphasize metrics, evals, production hardening
-- Agentic → emphasize orchestration, error handling, HITL
-- Transformation → emphasize adoption, organizational change
+- Senior Flutter → emphasize performance and production hardening
+- Architect → emphasize architectural decisions and patterns
+- Cross-Platform → emphasize multi-platform consistency and native bridges
+- Firebase/Cloud → emphasize real-time data and serverless logic
+- Full Stack Mobile → emphasize API design and data flow
+- Frontend Mobile → emphasize UI fidelity and animations
 
 Also include:
 - 1 recommended case study (which of their projects to present and how)
@@ -212,6 +212,9 @@ Save full evaluation in `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`.
 
 **Tracker format:**
 
+```markdown
+| # | Date | Company | Role | Score | Status | PDF | Report |
+```
 ```markdown
 | # | Date | Company | Role | Score | Status | PDF | Report |
 ```

@@ -18,7 +18,7 @@
 
    ### Recruiter
    - **Sentence 1 (Fit)**: Direct match criteria -- role, relevant experience, availability, or location
-   - **Sentence 2 (Proof)**: Data that answers their screening questions before they ask them (e.g., "5 years building ML pipelines, currently in Berlin, available immediately")
+   - **Sentence 2 (Proof)**: Data that answers their screening questions before they ask them (e.g., "3+ years building scalable Flutter apps, experienced in Clean Architecture, currently in Kerala, available for remote global roles")
    - **Sentence 3 (CTA)**: "Happy to share my CV if this aligns with what you're looking for"
 
    ### Hiring Manager

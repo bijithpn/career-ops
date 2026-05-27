@@ -37,14 +37,14 @@ The parser must print one of these JSON shapes to stdout:
 
 ```json
 [
-  { "title": "Senior AI Engineer", "url": "https://example.com/jobs/123", "location": "Remote" }
+  { "title": "Senior Flutter Developer", "url": "https://example.com/jobs/123", "location": "Remote" }
 ]
 ```
 
 ```json
 {
   "jobs": [
-    { "title": "Senior AI Engineer", "url": "https://example.com/jobs/123", "location": "Remote" }
+    { "title": "Senior Flutter Developer", "url": "https://example.com/jobs/123", "location": "Remote" }
   ]
 }
 ```
@@ -52,7 +52,7 @@ The parser must print one of these JSON shapes to stdout:
 ```json
 {
   "results": [
-    { "title": "Senior AI Engineer", "url": "https://example.com/jobs/123", "location": "Remote" }
+    { "title": "Senior Flutter Developer", "url": "https://example.com/jobs/123", "location": "Remote" }
   ]
 }
 ```

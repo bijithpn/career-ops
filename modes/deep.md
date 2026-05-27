@@ -7,14 +7,14 @@ Generate a structured prompt for Perplexity/Claude/ChatGPT with 6 axes:
 
 Context: I am evaluating a candidacy for [role] at [company]. I need actionable information for the interview.
 
-### 1. AI Strategy
-- What products/features use AI/ML?
-- What is their AI stack? (models, infrastructure, tools)
-- Do they have an engineering blog? What do they publish?
-- What papers or talks have they presented on AI?
+### 1. Mobile & Product Strategy
+- What products/features are built with Flutter?
+- What is their mobile stack? (state management, native bridges, CI/CD)
+- Do they have an engineering blog? What do they publish about mobile?
+- What talks or open source projects have they shared in the mobile space?
 
 ### 2. Recent moves (last 6 months)
-- Relevant hires in AI/ML/product?
+- Relevant hires in Mobile/Product/Engineering?
 - Acquisitions or partnerships?
 - Product launches or pivots?
 - Funding rounds or leadership changes?

@@ -38,9 +38,9 @@
 
 1. **Input**: User pastes JD text or URL
 2. **Extract**: Playwright/WebFetch extracts JD from URL
-3. **Classify**: Detect archetype (1 of 6 types)
+3. **Classify**: Detect archetype (e.g., Senior Flutter Developer, Mobile Architect)
 4. **Evaluate**: 6 blocks (A-F):
-   - A: Role summary
+   - A: Role summary (domain: fintech/logistics/healthcare)
    - B: CV match (gaps + mitigation)
    - C: Level strategy
    - D: Comp research (WebSearch)

@@ -53,7 +53,7 @@ Formato array:
 
 ```json
 [
-  { "title": "Senior AI Engineer", "url": "https://example.com/jobs/123", "location": "Remote" }
+  { "title": "Senior Flutter Developer", "url": "https://example.com/jobs/123", "location": "Remote" }
 ]
 ```
 
@@ -62,7 +62,7 @@ Formato objeto con `jobs`:
 ```json
 {
   "jobs": [
-    { "title": "Senior AI Engineer", "url": "https://example.com/jobs/123", "location": "Remote" }
+    { "title": "Senior Flutter Developer", "url": "https://example.com/jobs/123", "location": "Remote" }
   ]
 }
 ```
@@ -72,7 +72,7 @@ Formato objeto con `results`:
 ```json
 {
   "results": [
-    { "title": "Senior AI Engineer", "url": "https://example.com/jobs/123", "location": "Remote" }
+    { "title": "Senior Flutter Developer", "url": "https://example.com/jobs/123", "location": "Remote" }
   ]
 }
 ```
@@ -249,7 +249,7 @@ Los resultados de WebSearch vienen en formato: `"Job Title @ Company"` o `"Job T
 
 Patrones de extracción por portal:
 - **Ashby**: `"Senior AI PM (Remote) @ EverAI"` → title: `Senior AI PM`, company: `EverAI`
-- **Greenhouse**: `"AI Engineer at Anthropic"` → title: `AI Engineer`, company: `Anthropic`
+- **Greenhouse**: `"Senior Flutter Developer at Google"` â†’ title: `Senior Flutter Developer`, company: `Google`
 - **Lever**: `"Product Manager - AI @ Temporal"` → title: `Product Manager - AI`, company: `Temporal`
 
 Regex genérico: `(.+?)(?:\s*[@|—–-]\s*|\s+at\s+)(.+?)$`

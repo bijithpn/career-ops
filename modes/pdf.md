@@ -55,7 +55,7 @@
 ## Keyword injection strategy (ethical, truth-based)
 
 Examples of legitimate reformulation:
-- JD says "RAG pipelines" and CV says "LLM workflows with retrieval" → change to "RAG pipeline design and LLM orchestration workflows"
+- JD says "MethodChannels" and CV says "Native bridge" â†’ change to "Native platform channels (MethodChannels) for high-performance integration"
 - JD says "MLOps" and CV says "observability, evals, error handling" → change to "MLOps and observability: evals, error handling, cost monitoring"
 - JD says "stakeholder management" and CV says "collaborated with team" → change to "stakeholder management across engineering, operations, and business"
 

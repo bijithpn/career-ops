@@ -1,16 +1,12 @@
-# Career-Ops
+# Career-Ops -- Flutter Developer Job Search Pipeline
 
-[English](README.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [Українська](README.ua.md) | [Русский](README.ru.md) | [繁體中文](README.zh-TW.md)
+AI-powered, CLI-agnostic job search automation for high-performance mobile engineering. Built and used to evaluate 740+ job offers, generate 100+ tailored CVs, and land senior roles.
 
-<p align="center">
-  <a href="https://x.com/santifer"><img src="docs/hero-banner.jpg" alt="Career-Ops — Multi-Agent Job Search System" width="800"></a>
-</p>
+## Origin
 
-<p align="center">
-  <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>
-  Companies use AI to filter candidates. <strong>I just gave candidates AI to <em>choose</em> companies.</strong><br>
-  <em>Now it's open source.</em>
-</p>
+This system is customized for **Bijith P N**, a Flutter Developer with 3+ years of experience building scalable applications across healthcare, logistics, and e-commerce.
+
+The archetypes, scoring logic, and proof point structure are tailored for **Mobile Engineering, Clean Architecture, and Real-time Systems**.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Claude_Code-000?style=flat&logo=anthropic&logoColor=white" alt="Claude Code">
@@ -132,7 +128,7 @@ cd career-ops
 gemini
 
 # 4. Use slash commands just like Claude Code
-/career-ops "Senior AI Engineer at Anthropic..."
+/career-ops "Senior Flutter Developer at BMW Group..."
 /career-ops-evaluate --file ./jds/openai.txt
 /career-ops-scan
 /career-ops-pdf
@@ -152,12 +148,13 @@ cp .env.example .env
 npm install
 
 # 3. Evaluate a job description
-node gemini-eval.mjs "We are looking for a Senior AI Engineer..."
+node gemini-eval.mjs "We are looking for a Senior Flutter Developer..."
 node gemini-eval.mjs --file ./jds/my-job.txt
 npm run gemini:eval -- "JD text here"
 ```
 
 > **Free tier:** Both options work without billing. Native CLI uses Google OAuth; the API script uses `gemini-2.5-flash` (15 RPM, 1M tokens/day free).
+
 
 ## Usage
 
@@ -187,7 +184,7 @@ You paste a job URL or description
         │
         ▼
 ┌──────────────────┐
-│  Archetype       │  Classifies: LLMOps / Agentic / PM / SA / FDE / Transformation
+│  Archetype       │  Classifies: Senior Flutter / Architect / Cross-Platform / Firebase
 │  Detection       │
 └────────┬─────────┘
          │
@@ -206,14 +203,14 @@ You paste a job URL or description
 
 The scanner comes with **45+ companies** ready to scan and **19 search queries** across major job boards. Copy `templates/portals.example.yml` to `portals.yml` and add your own:
 
-**AI Labs:** Anthropic, OpenAI, Mistral, Cohere, LangChain, Pinecone
-**Voice AI:** ElevenLabs, PolyAI, Parloa, Hume AI, Deepgram, Vapi, Bland AI
-**AI Platforms:** Retool, Airtable, Vercel, Temporal, Glean, Arize AI
-**Contact Center:** Ada, LivePerson, Sierra, Decagon, Talkdesk, Genesys
-**Enterprise:** Salesforce, Twilio, Gong, Dialpad
-**LLMOps:** Langfuse, Weights & Biases, Lindy, Cognigy, Speechmatics
-**Automation:** n8n, Zapier, Make.com
-**European:** Factorial, Attio, Tinybird, Clarity AI, Travelperk
+**Automotive:** BMW Group, Mercedes-Benz, Volkswagen, Tesla, Volvo
+**Food & Delivery:** Delivery Hero, Hepsiburada, Trendyol, Getir, HelloFresh
+**Fintech:** N26, Trade Republic, Qonto, SumUp, Papara, Garanti BBVA
+**Logistics:** Forto, Craftgate, Glacis AI
+**Travel:** GetYourGuide, Travelperk, Booking.com
+**SaaS:** Contentful, Factorial, Attio, Tinybird, Clarity AI
+**E-commerce:** Amazon, Shopify, Zalando, n11.com
+**Social & Media:** Spotify, Later, Hootsuite, TikTok
 
 **Job boards searched:** Ashby, Greenhouse, Lever, Wellfound, Workable, RemoteFront
 

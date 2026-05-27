@@ -18,14 +18,14 @@ This file is a regression fixture for the text normalization pass added in `gene
 
 The normalizer does NOT fix writing style. These are enforced by the rules in `modes/_shared.md` and should never appear in generated CV text in the first place.
 
-- "passionate about machine learning"
+- "passionate about Flutter development"
 - "results-oriented professional with a proven track record"
-- "leveraged cutting-edge LLM technology"
+- "leveraged BLoC state management"
 - "spearheaded a strategic initiative"
 - "facilitated cross-functional synergies"
 - "crafted robust, scalable solutions"
 - "in today's fast-paced digital world"
-- "5+ years of experience in artificial intelligence"
+- "3+ years of experience in mobile engineering"
 - "demonstrated ability to drive innovative outcomes"
 
 ## How to verify the normalizer

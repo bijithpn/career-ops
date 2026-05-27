@@ -117,10 +117,10 @@ function runSelfTest() {
 
 \`\`\`yaml
 company: "Acme"
-role: "Staff AI Engineer"
+role: "Senior Flutter Developer"
 score: 4.4
 legitimacy_tier: "High Confidence"
-archetype: "AI Platform / LLMOps Engineer"
+archetype: "Senior Flutter Developer"
 final_decision: "Apply"
 hard_stops: []
 soft_gaps:

@@ -106,8 +106,8 @@ try {
     finalUrl: 'https://example.workday.com/job/123',
     bodyText: [
       '663 JOBS FOUND',
-      'Senior AI Engineer',
-      'Join our applied AI team to ship production systems, partner with customers, and own delivery across evaluation, deployment, and reliability.',
+      'Senior Flutter Developer',
+      'Join our product engineering team to build high-performance mobile apps with Clean Architecture.',
     ].join('\n'),
     applyControls: ['Apply for this Job'],
   });

@@ -77,12 +77,12 @@ Classify every offer into one of these types (or hybrid of 2):
 
 | Archetype | Key signals in JD |
 |-----------|-------------------|
-| AI Platform / LLMOps | "observability", "evals", "pipelines", "monitoring", "reliability" |
-| Agentic / Automation | "agent", "HITL", "orchestration", "workflow", "multi-agent" |
-| Technical AI PM | "PRD", "roadmap", "discovery", "stakeholder", "product manager" |
-| AI Solutions Architect | "architecture", "enterprise", "integration", "design", "systems" |
-| AI Forward Deployed | "client-facing", "deploy", "prototype", "fast delivery", "field" |
-| AI Transformation | "change management", "adoption", "enablement", "transformation" |
+| Senior Flutter Developer | "Flutter", "Dart", "architecture", "performance", "scalable" |
+| Cross-Platform Engineer | "Android", "iOS", "Flutter Web", "multi-platform", "responsive" |
+| Mobile App Architect | "design patterns", "clean architecture", "system design", "scalability" |
+| Flutter + Firebase Engineer | "Firebase", "Firestore", "real-time", "cloud messaging", "auth" |
+| Frontend Mobile Engineer | "UI/UX", "animations", "polished", "design implementation" |
+| Full Stack Mobile Developer | "APIs", "backend integration", "REST", "GraphQL", "WebSockets" |
 
 After detecting archetype, read `modes/_profile.md` for the user's specific framing and proof points for that archetype.
 
@@ -234,6 +234,7 @@ These rules apply to ALL generated text that ends up in candidate-facing documen
 - Don't always use "X, Y, and Z" — sometimes two items, sometimes four
 
 ### Prefer specifics over abstractions
-- "Cut p95 latency from 2.1s to 380ms" beats "improved performance"
-- "Postgres + pgvector for retrieval over 12k docs" beats "designed scalable RAG architecture"
-- Name tools, projects, and customers when allowed
+- "Maintained 60fps animations in list-views with 5k+ items" beats "optimized UI performance"
+- "Reduced app launch time from 3.2s to 850ms via lazy-loading and deferred initialization" beats "improved app speed"
+- "MethodChannels + JNI for direct legacy SQL connectivity on Android" beats "integrated native modules"
+- Name tools, libraries (BLoC, Riverpod, Shorebird), and domains (Fintech, Logistics) when allowed

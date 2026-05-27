@@ -17,8 +17,9 @@ func TestParseApplicationsUsesTrackerNumberColumn(t *testing.T) {
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
-| 140 | 2026-04-16 | Arize AI | AI Engineer, Instrumentation | 4.7/5 | Evaluated | ✅ | [140](reports/140-arize-ai-engineer-instrumentation-2026-04-16.md) | Strong fit |
-| 143 | 2026-04-16 | Arize AI | AI Sales Engineer, US | 4.1/5 | Evaluated | ❌ | [143](reports/143-arize-ai-sales-engineer-us-2026-04-16.md) | Good fit |
+| 140 | 2026-04-16 | BMW Group | Senior Flutter Developer | 4.7/5 | Evaluated | âœ… | [140](reports/140-bmw-group-senior-flutter-developer-2026-04-16.md) | Strong fit |
+| 140 | 2026-04-16 | BMW Group | Senior Flutter Developer | 4.7/5 | Evaluated | âœ… | [140](reports/140-bmw-group-senior-flutter-developer-2026-04-16.md) | Strong fit |
+
 `
 
 	applicationsPath := filepath.Join(dataDir, "applications.md")

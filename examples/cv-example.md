@@ -1,48 +1,64 @@
-# CV -- Alex Chen
+# BIJITH P N
 
-**Location:** Austin, TX
-**Email:** alex@example.com
-**LinkedIn:** linkedin.com/in/alexchen
-**Portfolio:** alexchen.dev
-**GitHub:** github.com/alexchen
+**Location:** Ernakulam, Kerala, India
+**Phone:** +91 7994552488
+**Email:** [bijithpn@gmail.com](mailto:bijithpn@gmail.com)
+**LinkedIn:** [linkedin.com/in/bijithpn](https://linkedin.com/in/bijithpn)
+**GitHub:** [github.com/bijithpn](https://github.com/bijithpn)
 
 ## Professional Summary
 
-Full-stack AI engineer with 6 years building production ML systems. Led the ML platform at a Series B fintech (2020-2024), scaling from 2 models to 15+ in production. Built real-time fraud detection (99.7% precision, $2M/year saved), recommendation engine (18% uplift), and an internal MLOps platform serving 4 engineering teams.
+Flutter Developer with 3+ years of experience building scalable, high-performance mobile and web applications for Android and iOS. Proficient in Dart, Flutter, cross-platform development, state management (Bloc, GetX, Provider), clean architecture, and CI/CD automation. Proven track record delivering production-ready applications across e-commerce, healthcare, logistics, and consumer lifestyle domains.
 
-## Work Experience
+## Technical Skills
 
-### TechFin Corp -- Austin, TX
-**Senior ML Engineer / ML Platform Lead**
-2020-2024
+- **Languages:** Dart
+- **Frameworks & Platforms:** Flutter, Flutter Web, Android, iOS
+- **State Management:** Bloc, GetX, Provider
+- **Architecture Patterns:** Clean Architecture, MVVM, MVC
+- **Backend & APIs:** REST APIs, GraphQL, WebSocket, Firebase (Firestore, Auth, Cloud Messaging)
+- **Databases:** Firestore, SQLite, Hive, MongoDB
+- **Testing:** Unit Testing, Widget Testing, Integration Testing
+- **CI/CD & DevOps:** GitHub Actions, Codemagic
+- **Version Control:** Git, GitHub
+- **Other:** Payment Gateway Integration, Real-Time Features, Role-Based Access Control, Offline-First Architecture
 
-- Led ML platform team (3 engineers), built internal MLOps tooling: model registry, A/B testing framework, feature store
-- Designed real-time fraud detection pipeline: Kafka → feature computation → model inference → decision engine. 99.7% precision at 50ms p99
-- Built recommendation engine for lending products: collaborative filtering + LLM reranking. 18% conversion uplift
-- Reduced model deployment time from 2 weeks to 4 hours with CI/CD pipeline (GitHub Actions + SageMaker)
-- Established model monitoring: drift detection, performance dashboards (Grafana), automated retraining triggers
+## Professional Experience
 
-### DataStartup Inc -- Remote
-**ML Engineer**
-2018-2020
+### Flutter Developer | Intersmart Solutions
+*Ernakulam, Kerala | December 2024 – Present*
 
-- Built NLP pipeline for document classification (BERT fine-tuning, 94% accuracy on legal docs)
-- Implemented search ranking with learning-to-rank models
-- Set up experiment tracking with MLflow and model versioning
+- Developed and maintained cross-platform Flutter applications (Android and iOS) with a focus on performance optimization, scalability, and code quality.
+- Delivered pixel-accurate UI implementations aligned with design specifications, including smooth animations and optimized widget rendering.
+- Refactored legacy codebases to improve application stability, reducing critical production bugs and improving maintainability.
+- Implemented structured state management using Bloc and GetX patterns, improving code readability and testability.
+- Automated build and deployment pipelines using GitHub Actions and Codemagic, significantly reducing manual release effort.
+- Integrated secure payment gateways and real-time WebSocket-based features to enhance core application functionality.
+
+### Flutter Developer | Sigosoft
+*Kozhikode, Kerala | September 2022 – August 2024*
+
+- Designed and developed Flutter applications across e-commerce, healthcare, and logistics domains for Android and iOS platforms.
+- Built real-time features including in-app chat and live GPS tracking using Firebase Realtime Database and WebSocket.
+- Improved application performance and reliability through code profiling, systematic refactoring, and widget optimization.
+- Established coding standards, documentation practices, and Flutter widget testing protocols to improve long-term maintainability.
+- Developed reusable UI components and utility libraries, reducing feature development time across multiple projects.
 
 ## Projects
 
-- **FraudShield** (Open Source) -- Real-time fraud detection framework. Kafka Streams + feature store + model serving. 500+ GitHub stars
-- **LLM Eval Toolkit** (Open Source) -- Evaluation framework for LLM applications. Supports custom metrics, regression testing, CI integration
+### ichargeON - Power Bank Rental App (2025)
+- Developed a consumer-facing power bank rental platform enabling users to locate nearby charging stations via a real-time live map.
+- Integrated real-time location services, QR code scanning, KYC verification flow, and encrypted payment processing.
+
+### Shabab Al Ahli - Official App (2024)
+- Developed an official sports club mobile application delivering real-time match updates and multimedia content to fans.
+- Integrated third-party ticketing and event management services for seamless in-app ticket purchasing.
+
+### SQL Connection Plugin (2024)
+- Published an open-source Flutter plugin enabling direct SQL Server connectivity from Flutter applications.
+- Designed secure native platform channel modules and a structured Dart API for database operations across Android and iOS.
 
 ## Education
 
-- MS Computer Science, UT Austin (2018)
-- BS Computer Science, UC Berkeley (2016)
-
-## Skills
-
-- **ML/AI:** PyTorch, TensorFlow, scikit-learn, Hugging Face, LangChain
-- **MLOps:** SageMaker, MLflow, Kubeflow, Airflow, Feature Store
-- **Infra:** Kubernetes, Kafka, Redis, PostgreSQL, AWS
-- **Languages:** Python, Go, TypeScript, SQL
+- **Bachelor of Computer Application (BCA)** | University of Calicut (2019 – 2022)
+- **Higher Secondary Education – Computer Science** | IHRD, Kerala (2016 – 2018)
